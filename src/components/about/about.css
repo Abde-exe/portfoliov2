@@ -18,6 +18,8 @@
   place-items: center;
 }
 .about_me-img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
@@ -25,6 +27,8 @@
 }
 .about_me-img:hover {
   transform: rotate(0);
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
 }
 .about_cards {
   display: grid;

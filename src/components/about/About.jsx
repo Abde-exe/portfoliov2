@@ -1,10 +1,12 @@
 import React from 'react';
-import './about.css';
 import { FiAward } from 'react-icons/fi';
 import { FiUsers } from 'react-icons/fi';
 import { FiFolder } from 'react-icons/fi';
 
+import './about.css';
 import ME from '../../assets/img/photo2.jpeg';
+import CTA from '../header/CTA';
+
 const About = () => {
   return (
     <section id="about">
@@ -40,9 +42,7 @@ const About = () => {
             reprehenderit, rerum aliquid itaque vitae totam reiciendis? Ex vel
             in enim placeat.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Contactez-moi
-          </a>
+          <CTA />
         </div>
       </div>
     </section>
