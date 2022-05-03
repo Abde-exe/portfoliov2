@@ -26,12 +26,18 @@
 }
 .experience_details {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+}
+.experience_details div {
+  text-align: center;
+}
+.experience_details small {
+  font-size: 10px;
 }
 .experience_icon {
   color: var(--color-primary);
-  margin-top: 6px;
 }
 /* media queries (tablettes) */
 @media screen and (max-width: 1024px) {
@@ -51,9 +57,6 @@
 }
 /* media queries (smartphones) */
 @media screen and (max-width: 600px) {
-  .experience_container {
-    gap: 1rem;
-  }
   .experience_container > div {
     width: 100%;
     padding: 2rem 1rem;

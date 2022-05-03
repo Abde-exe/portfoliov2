@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="" id="footer">
       <a href="#" className="footer_logo">
-        ABDEDEV
+        ABDEDEV.FR
       </a>
 
       <ul className="permalinks">
@@ -17,10 +17,10 @@ const Footer = () => {
           <a href="#about">A propos</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience">Tech</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Non tech</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -39,7 +39,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer_copyright">
-        <small>&copy; ABDEDEV 2022. </small>
+        <small>&copy; ABDEDEV.FR 2022. </small>
       </div>
     </footer>
   );

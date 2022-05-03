@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './portfolio.css';
-import IMG1 from '../../assets/img/portfolio1.jpg';
-import IMG2 from '../../assets/img/portfolio2.jpg';
-import IMG3 from '../../assets/img/portfolio3.jpg';
-import IMG4 from '../../assets/img/portfolio4.jpg';
+import IMG1 from '../../assets/img/theresto.png';
+import IMG2 from '../../assets/img/lingo.png';
+import IMG3 from '../../assets/img/wanted.png';
+import IMG4 from '../../assets/img/portfolio.png';
 import IMG5 from '../../assets/img/portfolio5.png';
 import IMG6 from '../../assets/img/portfolio6.jpg';
 
@@ -12,59 +12,59 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard',
+    title: 'The Resto',
+    subtitle: ' - Site web responsive',
     github: 'https://github.com',
     demo: 'https://github.com',
+    stack: 'HTML + CSS',
   },
-  {
-    id: 2,
-    image: IMG2,
-    title: 'Crypto Currency Dashboard',
-    github: 'https://github.com',
-    demo: 'https://github.com',
-  },
+
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency Dashboard',
-    github: 'https://github.com',
-    demo: 'https://github.com',
+    title: 'Wanted',
+    subtitle: ' - App iOS/Android',
+    github: 'https://github.com/abde-exe/wantedFB',
+    demo: 'http://onelink.to/r5cycy',
+    stack: 'React Native + Firebase',
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency Dashboard',
-    github: 'https://github.com',
-    demo: 'https://github.com',
+    title: 'Portfolio',
+    subtitle: ' - App Web responsive',
+    github: 'https://github.com/abde-exe/portfoliov2',
+    demo: '#',
+    stack: 'HTML + CSS + React.js',
   },
   {
-    id: 5,
-    image: IMG5,
-    title: 'Crypto Currency Dashboard',
+    id: 2,
+    image: IMG2,
+    title: 'Lingo',
+    subtitle: ' - Page Web responsive',
     github: 'https://github.com',
     demo: 'https://github.com',
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Crypto Currency Dashboard',
-    github: 'https://github.com',
-    demo: 'https://github.com',
+    stack: 'HTML + CSS + Bootsrap',
   },
 ];
 const Portfolio = () => {
   return (
     <section className="" id="portfolio">
-      <h5>My recent work</h5>
-      <h2>portfolio</h2>
+      <h5>Quelques projets</h5>
+      <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title, subtitle, github, demo, stack }) => {
           return (
             <article className="portfolio_item" key={id}>
               <div className="portfolio_item-img">
                 <img src={image} alt={title} />
               </div>
-              <h3>{title}</h3>
+              <div className="titles">
+                <h3>
+                  <span> {title}</span>
+                  {subtitle}
+                </h3>
+              </div>
               <div className="portfolio_item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github
@@ -73,6 +73,7 @@ const Portfolio = () => {
                   Live Demo
                 </a>
               </div>
+              <small className="text-light">{stack}</small>
             </article>
           );
         })}

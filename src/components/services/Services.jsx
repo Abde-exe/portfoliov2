@@ -5,92 +5,62 @@ import './services.css';
 const Services = () => {
   return (
     <section className="" id="services">
-      <h5>what i offer</h5>
-      <h2>services</h2>
+      <h5></h5>
+      <h2>Compétences non techniques</h2>
 
       <div className="container services_container">
         <article className="service">
           <div className="service_head">
-            <h3>UI/UX Design</h3>
+            <h3>Méthodologies</h3>
           </div>
           <ul className="service_list">
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>UX/UI design</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Responsive design</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>UML</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Agile (SCRUM)</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Design Patters</p>
             </li>
           </ul>
         </article>
         <article className="service">
           <div className="service_head">
-            <h3>Web development</h3>
+            <h3>Soft skills</h3>
           </div>
           <ul className="service_list">
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Autonomie</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Communication</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Curiosité</p>
+            </li>
+
+            <li>
+              <FiCheck className="service_list-icon" />
+              <p>Esprit d'Equipe</p>
             </li>
             <li>
               <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
-        <article className="service">
-          <div className="service_head">
-            <h3>Content creation</h3>
-          </div>
-          <ul className="service_list">
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <FiCheck className="service_list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Résolution de problème</p>
             </li>
           </ul>
         </article>

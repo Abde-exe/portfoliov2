@@ -61,10 +61,14 @@
   color: var(--color-light);
 }
 .about_content p {
-  margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
-
+.paragraphes {
+  margin: 2rem 0 2.6rem;
+}
+span {
+  color: #64ffda;
+}
 /* media queries (tablettes) */
 @media screen and (max-width: 1024px) {
   .about_container {
@@ -94,5 +98,11 @@
   }
   .about_content p {
     margin: 1.5rem 0;
+  }
+}
+@media screen and (max-width: 280px) {
+  .about_content p {
+    font-size: 0.8rem;
+    width: 90vw;
   }
 }

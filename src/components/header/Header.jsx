@@ -1,19 +1,21 @@
 import React from 'react';
 import './header.css';
-import './CTA.jsx';
-import CTA from './CTA.jsx';
-import ME from '../../assets/img/photo.png';
 import Socials from './Socials';
 
 const Header = () => {
   return (
     <header>
-      <div className="container header_container">
-        <h5>Bonjour, je suis</h5>
-        <h1>Abdessamad Bourhaleb</h1>
-        <h1 className="text-light">Développeur Web + Mobile</h1>
-        <a href="#contact" className="btn btn-primary">
-          Contactez-moi
+      <div className="container header_container" data-aos="fade-down">
+        <h3>Bonjour, je suis</h3>
+        <div data-aos="fade-right">
+          <h1>Abdessamad Bourhaleb</h1>
+        </div>
+        <h2 className="text-light" data-aos="fade-left">
+          Développeur Web <span>+</span> Mobile
+        </h2>
+        <p></p>
+        <a href="#about" className="scroll_down">
+          Découvrir
         </a>
         <Socials />
         {/* <div className="me">
