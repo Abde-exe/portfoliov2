@@ -77,7 +77,14 @@ span {
   }
 }
 /* media queries (smartphones) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
+  .header_container h1 {
+    font-size: 2rem;
+  }
+  .header_container h2 {
+    margin: 2rem 10px;
+    font-size: 1rem;
+  }
   header {
     height: 100vh;
   }
@@ -88,7 +95,7 @@ span {
   }
 }
 /* media queries (smartphones) */
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 600px) {
   .cta {
     width: 90vw;
   }

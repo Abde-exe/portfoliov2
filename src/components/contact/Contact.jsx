@@ -40,13 +40,17 @@ const Contact = () => {
           <article className="contact_option">
             <FiMail className="contact_option-icon" />
             <h4>Email</h4>
-            <h5>contact@abdedev.fr</h5>
+            <h5>
+              <span>contact@abdedev.fr</span>
+            </h5>
             <a href="mailto:contact@abdedev.fr">Envoyer un mail</a>
           </article>
           <article className="contact_option">
             <SiLinkedin className="contact_option-icon" />
             <h4>LinkedIn</h4>
-            <h5>Abdessamad Bourhaleb</h5>
+            <h5>
+              <span>Abdessamad Bourhaleb</span>
+            </h5>
             <a
               href="https://linkedin.com/in/abdessamad-bourhaleb"
               target="_blank"

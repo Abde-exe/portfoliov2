@@ -33,13 +33,13 @@
 .about_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .about_card {
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
   transition: var(--transition);
 }
@@ -54,7 +54,7 @@
   margin-bottom: 1rem;
 }
 .about_card h5 {
-  font-size: 0.95rem;
+  font-size: 0.7rem;
 }
 .about_card small {
   font-size: 0.7rem;
@@ -93,16 +93,11 @@ span {
     text-align: center;
   }
   .about_cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
+    margin-top: 0 auto;
   }
   .about_content p {
     margin: 1.5rem 0;
-  }
-}
-@media screen and (max-width: 280px) {
-  .about_content p {
-    font-size: 0.8rem;
-    width: 90vw;
   }
 }
